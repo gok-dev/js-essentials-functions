@@ -107,4 +107,4 @@ Contributions are what make the open source community an incredible place to lea
 
 ## Licença
 
-The [MIT License]() (APACHE)
+The [Apache 2.0]() (APACHE 2.0)
