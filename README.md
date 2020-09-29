@@ -9,6 +9,12 @@
 
 <p align="center">This lib has some of the most used functions in every project, be it web, mobile or backend.</p>
 
+### Package Informations
+[![npm](https://img.shields.io/npm/v/js-functions-essentials.svg?label=npm%20package)](https://www.npmjs.com/package/js-functions-essentials)
+[![npm](https://img.shields.io/npm/dt/js-functions-essentials.svg)](https://www.npmjs.com/package/js-functions-essentials)
+[![GitHub issues](https://img.shields.io/github/issues-raw/JulioAugustoS/js-functions-essentials.svg)](https://github.com/JulioAugustoS/js-functions-essentials/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/JulioAugustoS/js-functions-essentials.svg)](https://github.com/JulioAugustoS/js-functions-essentials/commits/master)
+
 ### Code Climate
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/78a6c7732caf055076f3/maintainability)](https://codeclimate.com/github/JulioAugustoS/js-functions-essentials/maintainability)
