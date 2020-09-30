@@ -1,0 +1,10 @@
+export declare function cpfCnpjMask(value: string): string;
+export declare function cpfCnpjUnmask(value: string): string;
+export declare function cpfValidator(value: string): boolean;
+export declare function cnpjValidator(value: string): boolean;
+export declare function cepMask(value: string): string;
+export declare function cepUnmask(value: string): string;
+export declare function emailValidation(email: string): boolean;
+export declare function telephoneValidator(telephone: string): boolean;
+export declare function telephoneMask(value: string): string;
+export declare function telephoneUnmask(value: string): string;
