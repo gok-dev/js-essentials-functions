@@ -2,9 +2,6 @@
   "name": "js-functions-essentials",
   "version": "1.1.2",
   "main": "./dist/index.js",
-  "files": [
-    "./dist"
-  ],
   "license": "ISC",
   "private": false,
   "description": "",
