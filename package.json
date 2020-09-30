@@ -1,10 +1,17 @@
 {
   "name": "js-functions-essentials",
   "version": "1.0.0",
-  "main": "dist/index.ts",
+  "main": "./dist/index.js",
+  "files": [
+    "./dist"
+  ],
   "license": "ISC",
   "private": false,
   "description": "",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JulioAugustoS/js-functions-essentials.git"
@@ -27,5 +34,30 @@
     "telephone-mask",
     "cep-mask"
   ],
-  "author": "Julio Augusto <julioaugustoms@gmail.com>"
+  "author": "Julio Augusto <julioaugustoms@gmail.com>",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-react-app": "^5.2.1",
+    "eslint-plugin-flowtype": "^5.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.3.0",
+    "eslint-config-airbnb-base": "^14.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
+  }
 }

@@ -10,6 +10,7 @@
 <p align="center">This lib has some of the most used functions in every project, be it web, mobile or backend.</p>
 
 ### Package Informations
+
 [![npm](https://img.shields.io/npm/v/js-functions-essentials.svg?label=npm%20package)](https://www.npmjs.com/package/js-functions-essentials)
 [![npm](https://img.shields.io/npm/dt/js-functions-essentials.svg)](https://www.npmjs.com/package/js-functions-essentials)
 [![GitHub issues](https://img.shields.io/github/issues-raw/JulioAugustoS/js-functions-essentials.svg)](https://github.com/JulioAugustoS/js-functions-essentials/issues)
@@ -21,6 +22,7 @@
 [![Test Coverage](https://api.codeclimate.com/v1/badges/78a6c7732caf055076f3/test_coverage)](https://codeclimate.com/github/JulioAugustoS/js-functions-essentials/test_coverage)
 
 ### Deep Code
+
 [![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Ikp1bGlvQXVndXN0b1MiLCJyZXBvMSI6ImpzLWZ1bmN0aW9ucy1lc3NlbnRpYWxzIiwiaW5jbHVkZUxpbnQiOmZhbHNlLCJhdXRob3JJZCI6MjI5MDMsImlhdCI6MTYwMTM5Njg4Nn0.6s6kv28wn0tROMYx0xxcWfHT-2dhXifnriXXZPW8HGE)](https://www.deepcode.ai/app/gh/JulioAugustoS/js-functions-essentials/_/dashboard?utm_content=gh%2FJulioAugustoS%2Fjs-functions-essentials)
 
 ## Install
@@ -39,25 +41,25 @@ $ yarn add js-functions-essentials
 
 ## Available Functions
 
-| name       | accept type | description |
-| ---------- | ----------- | ----------- |
-| cpfCnpjMask | `string` | Returns the masked CPF or CNPJ |
-| cpfCnpjUnmask | `string` | Clears the CPF or CNPJ mask and returns a string |
-| cepMask | `string` | Return the masked CEP |
-| cepUnmask | `string` | Clear the CEP mask and return a string |
+| name          | accept type | description                                      |
+| ------------- | ----------- | ------------------------------------------------ |
+| cpfCnpjMask   | `string`    | Returns the masked CPF or CNPJ                   |
+| cpfCnpjUnmask | `string`    | Clears the CPF or CNPJ mask and returns a string |
+| cepMask       | `string`    | Return the masked CEP                            |
+| cepUnmask     | `string`    | Clear the CEP mask and return a string           |
 
 ## Usage with React
 
 ```jsx
-import React, { useState } from 'react';
+import React, { useState } from 'react'
 import { cpfCnpjMask } from 'js-functions-essentials'
 
 function App() {
-  const [cpf, setCpf] = useState('');
+  const [cpf, setCpf] = useState('')
 
   return (
     <form>
-      <input 
+      <input
         name="cpf"
         type="text"
         maxLength={11}
@@ -65,9 +67,8 @@ function App() {
         value={cpfCnpjMask(cpf)}
       />
     </form>
-  );
+  )
 }
-
 ```
 
 ## Usage with React Native
@@ -82,7 +83,7 @@ function App() {
 
   return (
     <View style={{ flex: 1 }}>
-      <TextInput 
+      <TextInput
         onChangeText={(e) => setCpf(e)}
         value={cpfCnpjMask(cpf)}
       />
@@ -107,9 +108,8 @@ Contributions are what make the open source community an incredible place to lea
 
 ### Developers
 
-| [<img src="https://avatars0.githubusercontent.com/u/39813875?s=460&v=4" width=115 > <br> <sub> Julio Augusto </sub>](https://github.com/JulioAugustoS) 
-| :----------------------------------------------------------------------------------------------------------------------------------------------------: 
-
+| [<img src="https://avatars0.githubusercontent.com/u/39813875?s=460&v=4" width=115 > <br> <sub> Julio Augusto </sub>](https://github.com/JulioAugustoS)
+| :----------------------------------------------------------------------------------------------------------------------------------------------------:
 
 ## Licença
 

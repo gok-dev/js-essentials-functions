@@ -6180,10 +6180,8 @@ jest@24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
-js-functions-essentials@^1.0.0:
+js-functions-essentials@../:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/js-functions-essentials/-/js-functions-essentials-1.0.0.tgz#f1663e3ce6cef82a8fefe53461f15424c0b36f13"
-  integrity sha512-wDLSErEbKCjQ9iwZCljhP7xdNrXCn976dYZpqjO9YNtjb7PvZJANZvKaUpfv9JB54z82k/+WQ/8BHvAMNhb9lw==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
