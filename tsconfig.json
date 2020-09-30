@@ -5,5 +5,10 @@
     "declaration": true,
     "outDir": "./dist"
   },
-  "include": ["lib/**/*"]
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
