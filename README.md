@@ -11,10 +11,10 @@
 
 ### Package Informations
 
-[![npm](https://img.shields.io/npm/v/js-functions-essentials.svg?label=npm%20package)](https://www.npmjs.com/package/js-functions-essentials)
-[![npm](https://img.shields.io/npm/dt/js-functions-essentials.svg)](https://www.npmjs.com/package/js-functions-essentials)
-[![GitHub issues](https://img.shields.io/github/issues-raw/JulioAugustoS/js-functions-essentials.svg)](https://github.com/JulioAugustoS/js-functions-essentials/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/JulioAugustoS/js-functions-essentials.svg)](https://github.com/JulioAugustoS/js-functions-essentials/commits/master)
+[![npm](https://img.shields.io/npm/v/js-essentials-functions.svg?label=npm%20package)](https://www.npmjs.com/package/js-essentials-functions)
+[![npm](https://img.shields.io/npm/dt/js-essentials-functions.svg)](https://www.npmjs.com/package/js-essentials-functions)
+[![GitHub issues](https://img.shields.io/github/issues-raw/gok-dev/js-essentials-functions.svg)](https://github.com/gok-dev/js-essentials-functions/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/gok-dev/js-essentials-functions.svg)](https://github.com/gok-dev/js-essentials-functions/commits/master)
 
 ### Code Climate
 
@@ -36,7 +36,7 @@ $ npm install js-functions-essentials --save
 if using yarn:
 
 ```
-$ yarn add js-functions-essentials
+$ yarn add js-essentials-functions
 ```
 
 ## Available Functions
