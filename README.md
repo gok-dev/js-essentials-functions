@@ -1,4 +1,4 @@
-<h1 align="center">JS Functions Essentials</h1>
+<h1 align="center">JS Essentials Functions</h1>
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=typescript&message=language&color=blue&style=for-the-badge&logo=TYPESCRIPT"/>
