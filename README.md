@@ -18,8 +18,8 @@
 
 ### Code Climate
 
-[![Maintainability](https://api.codeclimate.com/v1/badges/78a6c7732caf055076f3/maintainability)](https://codeclimate.com/github/JulioAugustoS/js-functions-essentials/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/78a6c7732caf055076f3/test_coverage)](https://codeclimate.com/github/JulioAugustoS/js-functions-essentials/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/037642c2fcf1fef7b23c/maintainability)](https://codeclimate.com/github/gok-dev/js-essentials-functions/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/037642c2fcf1fef7b23c/test_coverage)](https://codeclimate.com/github/gok-dev/js-essentials-functions/test_coverage)
 
 ### Deep Code
 
