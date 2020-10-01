@@ -1,6 +1,6 @@
 {
   "name": "js-essentials-functions",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "ISC",
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/gok-dev/js-essentials-functions.git"
   },
   "bugs": {
-      "url": "https://github.com/dok-dev/js-essentials-functions/issues"
+    "url": "https://github.com/dok-dev/js-essentials-functions/issues"
   },
   "keywords": [
     "react-native",
