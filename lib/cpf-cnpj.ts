@@ -26,17 +26,19 @@ export function cpfValidator(value: string): boolean {
   let numbers, digits, sum, i, result, equal_digits
   equal_digits = 1
 
-  if (value.length < 11) return false
+  let cpf = value.replace(/\D/g, '')
 
-  for (i = 0; i < value.length - 1; i++)
-    if (value.charAt(i) != value.charAt(i + 1)) {
+  if (cpf.length < 11) return false
+
+  for (i = 0; i < cpf.length - 1; i++)
+    if (cpf.charAt(i) != cpf.charAt(i + 1)) {
       equal_digits = 0
       break
     }
 
   if (!equal_digits) {
-    numbers = value.substring(0, 9)
-    digits = value.substring(9)
+    numbers = cpf.substring(0, 9)
+    digits = cpf.substring(9)
     sum = 0
 
     for (i = 10; i > 1; i--) sum += numbers.charAt(10 - i) * i
@@ -44,7 +46,7 @@ export function cpfValidator(value: string): boolean {
 
     if (result != digits.charAt(0)) return false
 
-    numbers = value.substring(0, 10)
+    numbers = cpf.substring(0, 10)
     sum = 0
 
     for (i = 11; i > 1; i--) sum += numbers.charAt(11 - i) * i
