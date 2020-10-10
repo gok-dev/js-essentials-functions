@@ -1,16 +1,9 @@
-import {
-  cpfCnpjMask,
-  cpfCnpjUnmask,
-  cpfValidator,
-  cnpjValidator,
-} from './cpf-cnpj'
+import { cpfCnpjMask, cpfCnpjUnmask } from './cpf-cnpj'
+import { cpfValidator } from './cpf-validator'
+import { cnpjValidator } from './cnpj-validator'
 import { cepMask, cepUnmask } from './cep'
 import { emailValidation } from './others'
-import {
-  telephoneMask,
-  telephoneUnmask,
-  telephoneValidator,
-} from './telephone'
+import { telephoneMask, telephoneUnmask, telephoneValidator } from './telephone'
 
 export {
   cpfCnpjMask,
