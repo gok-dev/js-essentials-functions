@@ -1,0 +1,27 @@
+name: code-climate-coverage
+on:
+  push:
+    branches:
+      - master
+    tags:
+      - '!*' # Do not execute on tags
+    paths:
+      - src/*
+      - test/*
+      - '*.json'
+      - yarn.lock
+  pull_request:
+    paths:
+      - '!*.MD'
+jobs:
+  coverage:
+    needs: [ test ],
+    name: 'coverage',
+      steps:
+        - name: Test & publish code coverage
+          uses: paambaati/codeclimate-action@v2.7.4
+          env:
+            CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+          with:
+            coverageCommand: npm run coverage
+            debug: true
