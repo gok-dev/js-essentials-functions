@@ -47,6 +47,10 @@ $ yarn add js-essentials-functions
 | cpfCnpjUnmask | `string`    | Clears the CPF or CNPJ mask and returns a string |
 | cepMask       | `string`    | Return the masked CEP                            |
 | cepUnmask     | `string`    | Clear the CEP mask and return a string           |
+| telephoneMask | `string`    | Return the masked telephone                      |
+| telephoneUnmask | `string`  | Clear the telephone mask and return a string   |
+| dateMask      | `string`    | Return the masked date in pt-br format           |
+| dateMaskUS    | `string`    | Return the masked date in en-us format           |
 
 ## Usage with React
 
