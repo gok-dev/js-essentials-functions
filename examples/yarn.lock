@@ -6387,8 +6387,8 @@ jest@24.9.0:
     import-local "^2.0.0"
     jest-cli "^24.9.0"
 
-js-functions-essentials@../:
-  version "1.1.4"
+js-essentials-functions@../:
+  version "1.1.5"
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.3.0"
     eslint-config-airbnb-base "^14.2.0"
