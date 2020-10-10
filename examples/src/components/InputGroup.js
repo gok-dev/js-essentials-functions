@@ -33,7 +33,7 @@ const InputGroup = ({
           value={value}
         />
         <Label className="label-show">
-          {`${otherLabel} ${secondFunc}`}
+          {`${otherLabel} ${secondFunc || ''}`}
         </Label>
       </Col>
     </FormGroup>

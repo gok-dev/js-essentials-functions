@@ -3,8 +3,10 @@ import {
   cpfCnpjMask,
   cpfCnpjUnmask,
   cepMask,
-  cepUnmask
-} from 'js-functions-essentials'
+  cepUnmask,
+  dateMask,
+  dateMaskUS
+} from 'js-essentials-functions'
 import './App.css'
 
 // Components
@@ -13,11 +15,7 @@ import {
   Card,
   CardHeader,
   CardBody,
-  Form,
-  FormGroup,
-  Label,
-  Col,
-  Input,
+  Form
 } from 'reactstrap'
 
 import { InputGroup } from './components';
@@ -26,6 +24,8 @@ function App() {
   const [cpf, setCpf] = useState('')
   const [cnpj, setCnpj] = useState('')
   const [cep, setCep] = useState('')
+  const [datePt, setDatePt] = useState('')
+  const [dateEn, setDateEn] = useState('')
 
   return (
     <Container
@@ -86,6 +86,38 @@ function App() {
               value={cepMask(cep)}
               otherLabel="Clear Mask:"
               secondFunc={cepUnmask(cep)}
+            />
+          </Form>
+        </CardBody>
+      </Card>
+      <hr />
+      <Card>
+        <CardHeader>
+          <h1>Date Mask</h1>
+        </CardHeader>
+        <CardBody>
+          <Form>
+            <InputGroup
+              label="DATE PT-BR"
+              type="text"
+              name="date-br"
+              id="date-br"
+              maxLength={10}
+              placeholder="Informe uma Data"
+              onChange={(e) => setDatePt(e.target.value)}
+              value={dateMask(datePt)}
+              otherLabel="Padrão Brasileiro: DD/MM/YYYY"
+            />
+            <InputGroup
+              label="DATE EN-US"
+              type="text"
+              name="date-en"
+              id="date-en"
+              maxLength={10}
+              placeholder="Informe uma Data"
+              onChange={(e) => setDateEn(e.target.value)}
+              value={dateMaskUS(dateEn)}
+              otherLabel="Padrão Americano: YYYY-MM-DD"
             />
           </Form>
         </CardBody>
