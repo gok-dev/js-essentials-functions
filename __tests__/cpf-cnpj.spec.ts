@@ -1,4 +1,6 @@
-import { cpfCnpjMask, cpfCnpjUnmask, cpfValidator, cnpjValidator } from '../lib/cpf-cnpj'
+import { cpfCnpjMask, cpfCnpjUnmask } from '../lib/cpf-cnpj'
+import { cpfValidator } from '../lib/cpf-validator'
+import { cnpjValidator } from '../lib/cnpj-validator'
 
 describe('Cpf and Cnpj mask', () => {
   it('should be add mask on cpf number', () => {
