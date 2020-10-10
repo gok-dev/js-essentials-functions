@@ -13,11 +13,22 @@ on:
   pull_request:
     paths:
       - '!*.MD'
-steps:
-  - name: Test & publish code coverage
-    uses: paambaati/codeclimate-action@v2.7.4
-    env:
-      CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
-    with:
-      coverageCommand: npm run coverage
-      debug: true
+jobs:
+  coverage:
+    needs: [ test ]
+    name: coverage
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: actions/setup-node@master
+      with:
+        node-version: '12'
+    - run: npm install -g yarn
+    - run: yarn install
+    - run: yarn build
+    - uses: paambaati/codeclimate-action@v2.7.4
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+      with:
+        coverageCommand: yarn coverage
+        debug: true
