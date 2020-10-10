@@ -6,11 +6,18 @@
   "license": "ISC",
   "private": false,
   "description": "",
+  "jest": {
+    "coverageReporters": [
+      "json",
+      "lcov"
+    ],
+    "coverageDirectory": "./coverage"
+  },
   "scripts": {
     "build": "tsc",
     "prepare": "rm -rf dist && npm run build",
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --watchAll --coverage"
   },
   "repository": {
     "type": "git",
