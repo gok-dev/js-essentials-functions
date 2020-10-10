@@ -20,6 +20,8 @@ import {
   Input,
 } from 'reactstrap'
 
+import { InputGroup } from './components';
+
 function App() {
   const [cpf, setCpf] = useState('')
   const [cnpj, setCnpj] = useState('')
@@ -39,44 +41,30 @@ function App() {
         </CardHeader>
         <CardBody>
           <Form>
-            <FormGroup row>
-              <Label for="cpf" sm={2}>
-                CPF
-              </Label>
-              <Col sm={10}>
-                <Input
-                  type="text"
-                  name="cpf"
-                  id="cpf"
-                  maxLength={15}
-                  placeholder="Informe seu CPF"
-                  onChange={(e) => setCpf(e.target.value)}
-                  value={cpfCnpjMask(cpf)}
-                />
-                <Label className="label-show">
-                  Clear Mask: {cpfCnpjUnmask(cpf)}
-                </Label>
-              </Col>
-            </FormGroup>
-            <FormGroup row>
-              <Label for="cnpj" sm={2}>
-                CNPJ
-              </Label>
-              <Col sm={10}>
-                <Input
-                  type="text"
-                  name="cnpj"
-                  id="cnpj"
-                  maxLength={18}
-                  placeholder="Informe seu CNPJ"
-                  onChange={(e) => setCnpj(e.target.value)}
-                  value={cpfCnpjMask(cnpj)}
-                />
-                <Label className="label-show">
-                  Clear Mask: {cpfCnpjUnmask(cnpj)}
-                </Label>
-              </Col>
-            </FormGroup>
+            <InputGroup
+              label="CPF"
+              type="text"
+              name="cpf"
+              id="cpf"
+              maxLength={15}
+              placeholder="Informe seu CPF"
+              onChange={(e) => setCpf(e.target.value)}
+              value={cpfCnpjMask(cpf)}
+              otherLabel="Clear Mask:"
+              secondFunc={cpfCnpjUnmask(cpf)}
+            />
+            <InputGroup
+              label="CNPJ"
+              type="text"
+              name="cnpj"
+              id="cnpj"
+              maxLength={18}
+              placeholder="Informe seu CNPJ"
+              onChange={(e) => setCnpj(e.target.value)}
+              value={cpfCnpjMask(cnpj)}
+              otherLabel="Clear Mask:"
+              secondFunc={cpfCnpjUnmask(cnpj)}
+            />
           </Form>
         </CardBody>
       </Card>
@@ -87,25 +75,18 @@ function App() {
         </CardHeader>
         <CardBody>
           <Form>
-            <FormGroup row>
-              <Label for="cpf" sm={2}>
-                CEP
-              </Label>
-              <Col sm={10}>
-                <Input
-                  type="text"
-                  name="cep"
-                  id="cep"
-                  maxLength={9}
-                  placeholder="Informe seu CEP"
-                  onChange={(e) => setCep(e.target.value)}
-                  value={cepMask(cep)}
-                />
-                <Label className="label-show">
-                  Clear Mask: {cepUnmask(cep)}
-                </Label>
-              </Col>
-            </FormGroup>
+            <InputGroup
+              label="CEP"
+              type="text"
+              name="cep"
+              id="cep"
+              maxLength={9}
+              placeholder="Informe seu CEP"
+              onChange={(e) => setCep(e.target.value)}
+              value={cepMask(cep)}
+              otherLabel="Clear Mask:"
+              secondFunc={cepUnmask(cep)}
+            />
           </Form>
         </CardBody>
       </Card>
