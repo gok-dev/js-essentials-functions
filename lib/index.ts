@@ -4,6 +4,7 @@ import { cnpjValidator } from './cnpj-validator'
 import { cepMask, cepUnmask } from './cep'
 import { emailValidation } from './others'
 import { telephoneMask, telephoneUnmask, telephoneValidator } from './telephone'
+import { dateMask, dateMaskUS } from './date'
 
 export {
   cpfCnpjMask,
@@ -16,4 +17,6 @@ export {
   telephoneMask,
   telephoneUnmask,
   telephoneValidator,
+  dateMask,
+  dateMaskUS
 }
