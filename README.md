@@ -110,10 +110,10 @@ Contributions are what make the open source community an incredible place to lea
 5. Push the Branch (`git push origin feature/newFeature`)
 6. Open a Pull Request
 
-### Developers
+### Contributors
 
-| [<img src="https://avatars0.githubusercontent.com/u/39813875?s=460&v=4" width=115 > <br> <sub> Julio Augusto </sub>](https://github.com/JulioAugustoS)
-| :----------------------------------------------------------------------------------------------------------------------------------------------------:
+| [<img src="https://avatars0.githubusercontent.com/u/39813875?s=460&v=4" width=115 > <br> <sub> Julio Augusto </sub>](https://github.com/JulioAugustoS) | [<img src="https://avatars0.githubusercontent.com/u/16242029?s=460&u=16a70e0eadcb716ad84b7f32bb5efe8242eda11f&v=4" width=115 > <br> <sub> Jhonatas Matos </sub>](https://github.com/jhonatasmatos)
+| :---: | :---:
 
 ## Licença
 
