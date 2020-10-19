@@ -47,6 +47,10 @@ $ yarn add js-essentials-functions
 | cpfCnpjUnmask | `string`    | Clears the CPF or CNPJ mask and returns a string |
 | cepMask       | `string`    | Return the masked CEP                            |
 | cepUnmask     | `string`    | Clear the CEP mask and return a string           |
+| telephoneMask | `string`    | Return the masked telephone                      |
+| telephoneUnmask | `string`  | Clear the telephone mask and return a string   |
+| dateMask      | `string`    | Return the masked date in pt-br format           |
+| dateMaskUS    | `string`    | Return the masked date in en-us format           |
 
 ## Usage with React
 
@@ -106,10 +110,10 @@ Contributions are what make the open source community an incredible place to lea
 5. Push the Branch (`git push origin feature/newFeature`)
 6. Open a Pull Request
 
-### Developers
+### Contributors
 
-| [<img src="https://avatars0.githubusercontent.com/u/39813875?s=460&v=4" width=115 > <br> <sub> Julio Augusto </sub>](https://github.com/JulioAugustoS)
-| :----------------------------------------------------------------------------------------------------------------------------------------------------:
+| [<img src="https://avatars0.githubusercontent.com/u/39813875?s=460&v=4" width=115 > <br> <sub> Julio Augusto </sub>](https://github.com/JulioAugustoS) | [<img src="https://avatars0.githubusercontent.com/u/16242029?s=460&u=16a70e0eadcb716ad84b7f32bb5efe8242eda11f&v=4" width=115 > <br> <sub> Jhonatas Matos </sub>](https://github.com/jhonatasmatos)
+| :---: | :---:
 
 ## Licença
 
