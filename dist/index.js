@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.dateMaskUS = exports.dateMask = exports.telephoneValidator = exports.telephoneUnmask = exports.telephoneMask = exports.emailValidation = exports.cnpjValidator = exports.cpfValidator = exports.cepUnmask = exports.cepMask = exports.cpfCnpjUnmask = exports.cpfCnpjMask = void 0;
+exports.cardExpirationDateMask = exports.dateMaskUS = exports.dateMask = exports.telephoneValidator = exports.telephoneUnmask = exports.telephoneMask = exports.emailValidation = exports.cnpjValidator = exports.cpfValidator = exports.cepUnmask = exports.cepMask = exports.cpfCnpjUnmask = exports.cpfCnpjMask = void 0;
 const cpf_cnpj_1 = require("./cpf-cnpj");
 Object.defineProperty(exports, "cpfCnpjMask", { enumerable: true, get: function () { return cpf_cnpj_1.cpfCnpjMask; } });
 Object.defineProperty(exports, "cpfCnpjUnmask", { enumerable: true, get: function () { return cpf_cnpj_1.cpfCnpjUnmask; } });
@@ -20,3 +20,4 @@ Object.defineProperty(exports, "telephoneValidator", { enumerable: true, get: fu
 const date_1 = require("./date");
 Object.defineProperty(exports, "dateMask", { enumerable: true, get: function () { return date_1.dateMask; } });
 Object.defineProperty(exports, "dateMaskUS", { enumerable: true, get: function () { return date_1.dateMaskUS; } });
+Object.defineProperty(exports, "cardExpirationDateMask", { enumerable: true, get: function () { return date_1.cardExpirationDateMask; } });
