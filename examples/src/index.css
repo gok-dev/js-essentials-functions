@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.selectLanguage {
+  margin-bottom: 1rem;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:active,
+button:focus {
+  outline: none !important;
+}
