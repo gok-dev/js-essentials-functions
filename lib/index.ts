@@ -5,6 +5,7 @@ import { cepMask, cepUnmask } from './cep'
 import { emailValidation } from './others'
 import { telephoneMask, telephoneUnmask, telephoneValidator } from './telephone'
 import { dateMask, dateMaskUS, cardExpirationDateMask } from './date'
+import { getAge } from './getAge'
 
 export {
   cpfCnpjMask,
@@ -19,5 +20,6 @@ export {
   telephoneValidator,
   dateMask,
   dateMaskUS,
-  cardExpirationDateMask
+  cardExpirationDateMask,
+  getAge
 }
