@@ -5,7 +5,8 @@ import {
   cepMask,
   cepUnmask,
   dateMask,
-  dateMaskUS
+  dateMaskUS,
+
 } from 'js-essentials-functions'
 import './App.css'
 
@@ -118,6 +119,28 @@ function App() {
               onChange={(e) => setDateEn(e.target.value)}
               value={dateMaskUS(dateEn)}
               otherLabel="Padrão Americano: YYYY-MM-DD"
+            />
+          </Form>
+        </CardBody>
+      </Card>
+      <hr />
+      <Card>
+        <CardHeader>
+          <h1>GET AGE</h1>
+        </CardHeader>
+        <CardBody>
+          <Form>
+            <InputGroup
+              label="BIRTHDAY"
+              type="text"
+              name="birthday"
+              id="birthday"
+              maxLength={10}
+              placeholder="Informe a data de nascimento"
+              onChange={(e) => setDatePt(e.target.value)}
+              value={dateMask(datePt)}
+              otherLabel={`Age: `}
+              secondFunc={'21'}
             />
           </Form>
         </CardBody>
