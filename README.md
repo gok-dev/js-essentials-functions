@@ -30,7 +30,7 @@
 if using npm:
 
 ```
-$ npm install js-functions-essentials --save
+$ npm install js-essentials-functions --save
 ```
 
 if using yarn:
@@ -56,7 +56,7 @@ $ yarn add js-essentials-functions
 
 ```jsx
 import React, { useState } from 'react'
-import { cpfCnpjMask } from 'js-functions-essentials'
+import { cpfCnpjMask } from 'js-essentials-functions'
 
 function App() {
   const [cpf, setCpf] = useState('')
@@ -80,7 +80,7 @@ function App() {
 ```jsx
 import React, { useState } from 'react';
 impot { View, TextInput } from 'react-native';
-import { cpfCnpjMask } from 'js-functions-essentials'
+import { cpfCnpjMask } from 'js-essentials-functions'
 
 function App() {
   const [cpf, setCpf] = useState('');
