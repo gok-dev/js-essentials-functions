@@ -16,11 +16,6 @@
 [![GitHub issues](https://img.shields.io/github/issues-raw/gok-dev/js-essentials-functions.svg)](https://github.com/gok-dev/js-essentials-functions/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/gok-dev/js-essentials-functions.svg)](https://github.com/gok-dev/js-essentials-functions/commits/master)
 
-### Code Climate
-
-[![Maintainability](https://api.codeclimate.com/v1/badges/037642c2fcf1fef7b23c/maintainability)](https://codeclimate.com/github/gok-dev/js-essentials-functions/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/037642c2fcf1fef7b23c/test_coverage)](https://codeclimate.com/github/gok-dev/js-essentials-functions/test_coverage)
-
 ### Deep Code
 
 [![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Ikp1bGlvQXVndXN0b1MiLCJyZXBvMSI6ImpzLWZ1bmN0aW9ucy1lc3NlbnRpYWxzIiwiaW5jbHVkZUxpbnQiOmZhbHNlLCJhdXRob3JJZCI6MjI5MDMsImlhdCI6MTYwMTM5Njg4Nn0.6s6kv28wn0tROMYx0xxcWfHT-2dhXifnriXXZPW8HGE)](https://www.deepcode.ai/app/gh/JulioAugustoS/js-functions-essentials/_/dashboard?utm_content=gh%2FJulioAugustoS%2Fjs-functions-essentials)
